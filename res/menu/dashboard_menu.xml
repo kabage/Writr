@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mSearch"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="never"
+        android:title="Search"/>
+    <item
+        android:id="@+id/mDiscover"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:showAsAction="never"
+        android:title="Discover"/>
+    <item
+        android:id="@+id/mPreferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="never"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/mShare"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="never"
+        android:title="Share"/>
+    <item
+        android:id="@+id/mCreateNew"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="New Creation"/>
+
+</menu>

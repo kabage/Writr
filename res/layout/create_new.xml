@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#990000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="15dp"
+        android:text="Select a category"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spCreationCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/spinner_selector" >
+    </Spinner>
+
+    <EditText
+        android:id="@+id/etCreationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="Creation title" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etCreationSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Creation summary" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etCreationAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Creation author" >
+    </EditText>
+
+    <Button
+        android:id="@+id/bCreateNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Create"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>

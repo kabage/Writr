@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Publishing options" >
+        <ListPreference
+            android:defaultValue="100"
+            android:entries="@array/publishOptions"
+            android:entryValues="@array/publishOptionValues"
+            android:key="publish"
+            android:summary="Who can view your creations"
+            android:title="Publish" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
